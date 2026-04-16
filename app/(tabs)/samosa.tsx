@@ -20,7 +20,6 @@ export default function Breakfast() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: "row",
     backgroundColor: "#1C1C1E",
     alignItems: "center",
     justifyContent: "center",
@@ -32,5 +31,6 @@ const styles = StyleSheet.create({
     width: 200,
     height: 300,
     borderRadius: 12,
+    marginBottom: 20,
   },
 });

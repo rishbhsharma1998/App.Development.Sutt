@@ -31,12 +31,18 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="breakfast"
         options={{
+          headerTitle: "Breakfast Menu",
+          headerTitleAlign: "center",
+          headerTintColor: "white",
           href: null,
         }}
       />
       <Tabs.Screen
         name="samosa"
         options={{
+          headerTitle: "Types of Samosa at Food Eatery",
+          headerTitleAlign: "center",
+          headerTintColor: "white",
           href: null,
         }}
       />
